@@ -34,46 +34,40 @@
 			<div id="sidebar-wrapper">
 				<ul class="sidebar-nav">
 					<li class="sidebar-brand">
-						<a href="#">
-							Start Bootstrap
+						<a href="#" onclick='load("index.html", this);'>
+							<div id="image", style='background-image: url(IMG/vh.png)'>
+								<div>Vincent Hellendoorn</div>
+							</div>
 						</a>
+						<div id="subtitle"> MSc Computer Science Student at Delft University of Technology </div>
 					</li>
 					<li>
-						<a href="#" onclick='$("#page-content-wrapper").load("Dashboard.html")'>Dashboard</a>
+						<a href="#" onclick='load("Publicationshtml", this);'>Publications</a>
 					</li>
 					<li>
-						<a href="#">Shortcuts</a>
+						<a href="#" onclick='load("Research", this);'>Research interests</a>
 					</li>
 					<li>
-						<a href="#">Overview</a>
+						<a href="#" onclick='load("Related", this);'>Experience & affiliations</a>
 					</li>
 					<li>
-						<a href="#">Events</a>
+						<a href="#" onclick='load("Service", this);'>Service</a>
 					</li>
 					<li>
-						<a href="#">About</a>
-					</li>
-					<li>
-						<a href="#">Services</a>
-					</li>
-					<li>
-						<a href="#">Contact</a>
+						<a href="#" onclick='load("Contact", this);'>Contact</a>
 					</li>
 				</ul>
+				<div id="copyright">
+					&copy; Vincent Hellendoorn, 2015
+				</div>
 			</div>
 			<!-- /#sidebar-wrapper -->
 
 			<!-- Page Content -->
-			<div id="page-content-wrapper">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-lg-12">
-							<h1>Simple Sidebar</h1>
-							<p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-							<p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
-							<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
-						</div>
-					</div>
+			<div id="page-content-wrapper">			
+				<div id="content">
+					<h2>About me</h2>
+					<h2>See also</h2>
 				</div>
 			</div>
 			<!-- /#page-content-wrapper -->

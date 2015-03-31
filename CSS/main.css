@@ -1,3 +1,7 @@
+body {
+	font-size: 1.2em;
+}
+
 #image {
 	margin: 5px;
 	background-size: 100px 118px;
@@ -37,11 +41,11 @@
 	text-align:center;
 }
 
-.publications {
+.lists {
 
 }
 
-.publication {
+.list-item {
 	font-size:1.2em;
 }
 

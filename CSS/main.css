@@ -36,3 +36,27 @@
 	color:#F2F2F2;
 	text-align:center;
 }
+
+.publications {
+
+}
+
+.publication {
+	font-size:1.2em;
+}
+
+.publication .title {
+	font-weight: bold;
+}
+
+.publication .authors {
+
+}
+
+.publication .journal {
+
+}
+
+.publication .links {
+
+}

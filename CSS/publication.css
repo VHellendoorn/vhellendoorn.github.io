@@ -1,0 +1,28 @@
+.publication {
+    background-color: inherit;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.publication:target {
+    background-color: #ffa;
+	transition-property: all;
+    transition-duration: .5s;
+	transition-timing-function: ease-in-out;
+}
+
+.publication .title {
+	font-weight: bold;
+}
+
+.publication .authors {
+
+}
+
+.publication .journal {
+
+}
+
+.publication .links {
+
+}

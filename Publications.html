@@ -1,39 +1,161 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-	<body>
-		<div id="container">
-			<h2>Peer-reviewed proceedings</h2>
-			<ol class="lists">
-				<li class="list-item publication">
-					<div class="title">
-						Will they like this? Evaluating Code Contributions With Language Models  (first author)
-					</div>
-					<div class="authors">
-						<u>Hellendoorn, V.</u>, Devanbu, P., and Bacchelli, A.
-					</div>
-					<div class="journal">
-						<em>12th Working Conference on Mining Software Repositories, MSR,</em> IEEE (2015), accepted
-					</div>
-					<div class="links">
-						<a href="">Bibtex</a> · <a href="PDF/msr2015.pdf">PDF</a> · <a href="">Scholar</a> · Acceptance rate: 30% (32/106)
-					</div>
-				</li>
 
-				<li class="list-item publication">
-					<div class="title">
-						CACHECA: A Cache Language Model Based Code Suggestion Tool (lead author)
-					</div>
-					<div class="authors">
-						Franks, C., Tu, Z., Devanbu, P., and <u>Hellendoorn, V.</u>
-					</div>
-					<div class="journal">
-						<em>37th International Conference on Software Engineering, Formal Demonstrations, ICSE, </em> ACM (2015), accepted
-					</div>
-					<div class="links">
-						<a href="">Bibtex</a> · <a href="PDF/icseDemo2015.pdf">PDF</a> · <a href="">Scholar</a> · Acceptance rate: 60% (25/42)
-					</div>
-				</li>
-			</ol>
+  <head>
+	<link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="description" content="Personal web page of Vincent Hellendoorn">
+    <meta name="author" content="Vincent Hellendoorn">
+
+	<!-- Enable responsiveness on mobile devices-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+	
+	<link rel="stylesheet" href="CSS/main.css">
+	<link rel="stylesheet" href="CSS/publication.css">
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="CSS/simple-sidebar.css" rel="stylesheet">
+    <link href="CSS/sidebar-additions.css" rel="stylesheet">
+	
+	<!-- RSS -->
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+	
+	<title>
+		Publications
+	</title>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+
+			<!-- Sidebar -->
+			<div id="sidebar-wrapper">
+				<ul class="sidebar-nav">
+					<li class="sidebar-brand selected-link" id="image-li">
+						<a href="index.html">
+							<div id="image", style='background-image: url(IMG/VH.png)'>
+								<div>Vincent Hellendoorn</div>
+							</div>
+						</a>
+						<div id="subtitle"> MSc Computer Science Student at Delft University of Technology </div>
+					</li>
+					<li>
+						<a href="Publications.html">Publications</a>
+					</li>
+					<li>
+						<a href="Research.html">Research interests</a>
+					</li>
+					<li>
+						<a href="Collaboration.html">Collaboration & Internships</a>
+					</li>
+					<li>
+						<a href="Service.html">Service</a>
+					</li>
+					<li>
+						<a href="Contact.html">Contact</a>
+					</li>
+				</ul>
+				<div id="copyright">
+					&copy; Vincent Hellendoorn, 2015
+				</div>
+			</div>
+			<!-- /#sidebar-wrapper -->
+
+			<!-- Page Content -->
+			<div id="page-content-wrapper">			
+				<div id="container">
+					<h2>Peer-reviewed proceedings</h2>
+					<ol class="lists">
+						<li class="list-item publication" id="msr15">
+							<div class="title">
+								Will they like this? Evaluating Code Contributions With Language Models  (first author)
+							</div>
+							<div class="authors">
+								<u>Hellendoorn, V.</u>, Devanbu, P., and Bacchelli, A.
+							</div>
+							<div class="journal">
+								<b>MSR'15</b> - <em>12th Working Conference on Mining Software Repositories, MSR,</em> IEEE (2015)
+							</div>
+							<div class="links">
+								<a data-toggle="collapse" href="#bibtex-msr2015">BibTeX</a> · <a href="PDF/msr2015.pdf">PDF</a> · <a href="https://scholar.google.nl/citations?view_op=view_citation&hl=nl&user=PfYrc5kAAAAJ&citation_for_view=PfYrc5kAAAAJ:d1gkVwhDpl0C">Scholar</a> · Acceptance rate: 30% (32/106)
+							</div>
+							<div id="bibtex-msr2015" class="collapse" style="height: auto;">
+<pre class="well well-sm bibtex">@article{hellendoornwill,
+  title={Will they like this? Evaluating Code Contributions With Language Models},
+  author={Hellendoorn, Vincent J and Devanbu, Premkumar T and Bacchelli, Alberto}
+}</pre>
+							</div>
+						</li>
+
+						<li class="list-item publication" id="icse15">
+							<div class="title">
+								CACHECA: A Cache Language Model Based Code Suggestion Tool (lead author)
+							</div>
+							<div class="authors">
+								Franks, C., Tu, Z., Devanbu, P., and <u>Hellendoorn, V.</u>
+							</div>
+							<div class="journal">
+								<b>ICSE'15</b> - <em>37th International Conference on Software Engineering, Formal Demonstrations, ICSE, </em> ACM (2015)
+							</div>
+							<div class="links">
+								<a data-toggle="collapse" href="#bibtex-icse2015">BibTeX</a> · <a href="PDF/icseDemo2015.pdf">PDF</a> · <a href="https://scholar.google.nl/citations?view_op=view_citation&hl=nl&user=PfYrc5kAAAAJ&citation_for_view=PfYrc5kAAAAJ:u-x6o8ySG0sC">Scholar</a> · Acceptance rate: 60% (25/42)
+							</div>
+							<div id="bibtex-icse2015" class="collapse" style="height: auto;">
+<pre class="well well-sm bibtex">@article{cacheca,
+  title={CACHECA: A Cache Language Model Based Code Suggestion Tool},
+  author={Franks, Christine and Tu, Zhaopeng and Devanbu, Premkumar T and Hellendoorn, Vincent J}
+}</pre>
+							</div>
+						</li>
+					</ol>
+					<h2>Technical Reports</h2>
+					<b>Note:</b> Work marked as "Under submission" in this category is/will be sent to a peer-reviewed conference or journal.
+					This work has been made publicly available to the research community to expedite the dissipation of knowledge, but may not be plagiarized under any condition.
+					We encourage you to cite this work already - if it is useful to you - and will update the BibTeX with further progress. 
+					<ol class="lists">
+						<li class="list-item publication" id="Faults">
+							<div class="title">
+								On the "Naturalness" of Buggy Code (co-first author)
+							</div>
+							<div class="authors">
+								Ray, B., <u>Hellendoorn, V.</u>, Tu, Z., Nguyen, C., Godhane, S., Bacchelli, A. and Devanbu, P.
+							</div>
+							<div class="journal">
+								<em>Scheduled for submission</em>
+							</div>
+							<div class="links">
+								<a data-toggle="collapse" href="#bibtex-bugs">BibTeX</a> · <a href="PDF/faultdetection.pdf">PDF</a> · <a href="https://scholar.google.nl/citations?view_op=view_citation&hl=nl&user=PfYrc5kAAAAJ&citation_for_view=PfYrc5kAAAAJ:2osOgNQ5qMEC">Scholar</a>
+							</div>
+							<div id="bibtex-bugs" class="collapse" style="height: auto;">
+<pre class="well well-sm bibtex">@article{ray2015naturalness,
+  title={On the "Naturalness" of Buggy Code},
+  author={Ray, Baishakhi and Hellendoorn, Vincent J and Tu, Zhaopeng and Nguyen, Connie and Godhane, Saheel and Bacchelli, Alberto and Devanbu, Premkumar T}
+}</pre>
+							</div>
+						</li>
+					</ol>
+				</div>
+			</div>
+			<!-- /#page-content-wrapper -->
+
 		</div>
-	</body>      
+	</body>
+
+	<!-- JS -->
+	<script src="JS/jquery-2.0.0.js	"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/main.js"></script>	
+	
+	<!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
 </html>

@@ -1,11 +1,109 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+	
+  <head>
+	<link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="description" content="Personal web page of Vincent Hellendoorn">
+    <meta name="author" content="Vincent Hellendoorn">
+
+	<!-- Enable responsiveness on mobile devices-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+	
+	<link rel="stylesheet" href="CSS/main.css">
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="CSS/simple-sidebar.css" rel="stylesheet">
+    <link href="CSS/sidebar-additions.css" rel="stylesheet">
+	
+	<!-- RSS -->
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+	
+	<title>
+		Research Interests
+	</title>
+	</head>
+	
 	<body>
-		<div id="container">
-			<h2>Research goals</h2>
-			
-			<h2>Other research</h2>
-			
+		<div id="wrapper">
+
+			<!-- Sidebar -->
+			<div id="sidebar-wrapper">
+				<ul class="sidebar-nav">
+					<li class="sidebar-brand selected-link" id="image-li">
+						<a href="index.html">
+							<div id="image", style='background-image: url(IMG/VH.png)'>
+								<div>Vincent Hellendoorn</div>
+							</div>
+						</a>
+						<div id="subtitle"> MSc Computer Science Student at Delft University of Technology </div>
+					</li>
+					<li>
+						<a href="Publications.html">Publications</a>
+					</li>
+					<li>
+						<a href="Research.html">Research interests</a>
+					</li>
+					<li>
+						<a href="Collaboration.html">Collaboration & Internships</a>
+					</li>
+					<li>
+						<a href="Service.html">Service</a>
+					</li>
+					<li>
+						<a href="Contact.html">Contact</a>
+					</li>
+				</ul>
+				<div id="copyright">
+					&copy; Vincent Hellendoorn, 2015
+				</div>
+			</div>
+			<!-- /#sidebar-wrapper -->
+
+			<!-- Page Content -->
+			<div id="page-content-wrapper">			
+				<div id="container">
+					<h2>Research mission</h2>
+					<h3>In short</h3>
+					The overarching philosphy of my work is this: by <b>learning</b> from the massive amounts of software-related data out there, we can <b>remove</b> the redundancies and complexities of software development and make <em>software engineering</em> 
+					(rather than <em>development</em>) <b>accessible</b> to all. Here, I believe, lies the solution to the software crisis.
+					
+					<h3>In full</h3>
+					The primary focus of my research is to simplify software development for the masses. Software Engineering is key here, as it adds discipline and rigour to the far-from-simple task of creating "good" software.
+					In practice, however, software engineering remains a fuzzy concept. Questions that are fundamental to an engineering discipline ("what defines `good code'?"; "how should design and architecture be included in software development?")
+					remain only partially answered and differently so in many domains.
+					<br />
+					<br />
+					I believe that, to answer questions such as the above, we must study code in the real world. Thus, I focus on <a href="http://2015.msrconf.org/">Mining Software Repositories</a> and Empirical Software Engineering.
+					I look for code that development communities find <a href="http://macbeth.cs.ucdavis.edu/natural.pdf">natural</a> (and the <a href="Publications.html#Faults">reverse</a>) and study its properties.
+					These properties can then be turned into <a href="Publications.html#icse15">tools</a> to make developing sound software easier.
+					I investigate how people <a href="Publications.html#msr15">collaborate</a>, focussing on how we can support maintainers and contributors alike in order improve the evolution of source code.
+					
+					<h2>Other research</h2>
+					In my spare-time, I try to regularly take on projects that are either "just-off" my main research or completely out there. This helps me relax and broaden my horizons.
+					Current topics of interest are (Deep) Neural Networks, Optimization Problems and the (cursed) <a href="https://en.wikipedia.org/wiki/Collatz_conjecture">Collatz Conjecture</a>.
+				</div>
+			</div>
+			<!-- /#page-content-wrapper -->
+
 		</div>
-	</body>      
+	</body>
+
+	<!-- JS -->
+	<script src="JS/jquery-2.0.0.js	"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/main.js"></script>	
+	
+	<!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
 </html>

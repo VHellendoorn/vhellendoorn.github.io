@@ -1,0 +1,14 @@
+.collaboration {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.collaboration img {
+	float: left;
+	max-width: 250px;
+	height: 100px;
+}
+
+
+.collaboration .body {
+}

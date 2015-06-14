@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 
   <head>
@@ -18,6 +19,7 @@
 	<link rel="stylesheet" href="CSS/main.css">
     <link href="CSS/bootstrap.min.css" rel="stylesheet">
     <link href="CSS/simple-sidebar.css" rel="stylesheet">
+    <link href="CSS/sidebar-additions.css" rel="stylesheet">
 	
 	<!-- RSS -->
 	<link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
@@ -33,8 +35,8 @@
 			<!-- Sidebar -->
 			<div id="sidebar-wrapper">
 				<ul class="sidebar-nav">
-					<li class="sidebar-brand selected-link">
-						<a href="#" onclick='load("index.html", this);'>
+					<li class="sidebar-brand selected-link" id="image-li">
+						<a href="index.html">
 							<div id="image", style='background-image: url(IMG/VH.png)'>
 								<div>Vincent Hellendoorn</div>
 							</div>
@@ -42,16 +44,19 @@
 						<div id="subtitle"> MSc Computer Science Student at Delft University of Technology </div>
 					</li>
 					<li>
-						<a href="#" onclick='load("Publications.html", this);'>Publications</a>
+						<a href="Publications.html">Publications</a>
 					</li>
 					<li>
-						<a href="#" onclick='load("Research.html", this);'>Research interests</a>
+						<a href="Research.html">Research interests</a>
 					</li>
 					<li>
-						<a href="#" onclick='load("Service.html", this);'>Service</a>
+						<a href="Collaboration.html">Collaboration & Internships</a>
 					</li>
 					<li>
-						<a href="#" onclick='load("Contact.html", this);'>Contact</a>
+						<a href="Service.html">Service</a>
+					</li>
+					<li>
+						<a href="Contact.html">Contact</a>
 					</li>
 				</ul>
 				<div id="copyright">
@@ -64,18 +69,48 @@
 			<div id="page-content-wrapper">			
 				<div id="container">
 					<h2>About me</h2>
+					I am a Master's student in Software Engineering at Delft University of Technology under <a href="http://sback.it/">Alberto Bacchelli</a>.
+					Right now, I am finalizing my Master's Thesis on language modelling of software (see also my <a href="Publications.html">publications</a>), 
+					which fits squarely in my <a href="Research.html">research interests</a> of studying software properties and improving the ease of its development. 
+					<br />
+					<br />
+					I enjoy travelling and <a href="Collaboration.html">collaborating</a> with other groups, and will always reply to an idea no matter how odd (<a href="Contact.html">no really</a>).
+					On the side, I try to do <a href="Service.html">my share</a> by (sub-)reviewing papers, and keep myself entertained by discussing/implementing ideas ranging from the crazy to the absurd (and sometimes the interesting, corresponding blog may come). 
 					
 					<h2>See also</h2>
+					<div id="also" style="font-size: 1.4em;">
+						<ul>
+							<li>
+								<a href="https://thesorcerers.github.io/">The SORCERERS group page</a><br />
+							</li>
+							<li>
+								<a href="https://nl.linkedin.com/pub/vincent-hellendoorn/35/10a/355">
+									My resume on LinkedIn
+								</a>
+							</li>
+							<li>
+								<a href="">
+									My tools on GitHub (coming soon)
+								</a>
+							</li>
+					</div>
 				</div>
 			</div>
 			<!-- /#page-content-wrapper -->
 
 		</div>
-	</body>   
-
+	</body>
 
 	<!-- JS -->
 	<script src="JS/jquery-2.0.0.js	"></script>
     <script src="JS/bootstrap.min.js"></script>
     <script src="JS/main.js"></script>	
+	
+	<!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
 </html>

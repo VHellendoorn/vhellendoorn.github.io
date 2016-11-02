@@ -3,11 +3,14 @@
 	margin-bottom: 30px;
 }
 
-.collaboration img {
+.collaboration .img-box {
 	float: left;
-	max-width: 250px;
+	width: 150px;
 	height: 100px;
+	margin-right: 10px;
 }
 
-.collaboration .body {
+.collaboration img {
+	max-width: 100%;
+	max-height: 100%;
 }

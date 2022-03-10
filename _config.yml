@@ -1,4 +1,7 @@
 theme: jekyll-theme-minimal
 title: Vincent Hellendoorn
 logo: VH.png
-description: Personal Webpage
+description: AI4SE Researcher, Assistant Professor at CMU
+github:
+  is_user_page: false
+  is_project_page: false

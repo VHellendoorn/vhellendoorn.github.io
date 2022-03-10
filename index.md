@@ -1,5 +1,5 @@
 # Welcome!
-I am an Assistant Professor in computer science [at CMU](https://www.isri.cmu.edu/people/core-faculty/hellendoorn-vincent.html), where I build intelligent tools for software engineering. My work focuses on using machine learning for software engineering (commonly called ML4SE/AI4SE). I study how developers communicate their expectations when writing software, how we can learn from these effectively, and I identify downstream applications and build the corresponding tools that such models unlock.
+I am an Assistant Professor in computer science [at CMU](https://www.isri.cmu.edu/people/core-faculty/hellendoorn-vincent.html), where I build intelligent tools for software engineering. My work focuses on using machine learning for software engineering (commonly called ML4SE/AI4SE).
 
 ## Research
 The goal of my work is to make safe, effective programming more accessible through intelligent software assistance tools. AI-based tools hold great promise for extracting _expertise_ from public data about software (on GitHub, StackOverflow, etc.) and presenting this in a timely fashion to help new and inexperienced developers.
